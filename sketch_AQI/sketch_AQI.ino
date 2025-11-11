@@ -26,7 +26,7 @@ int DUST_THRESHOLD  = 2000;
 // 👇 Change these 3 lines only 👇
 const char* ssid = "Zero";
 const char* password = "zero123456";
-const char* serverName = "http://10.169.127.157:5008/esp32/readings"; // your PC IPv4 address
+const char* serverName = "https://aqi-deployable.onrender.com/esp32/readings"; // your PC IPv4 address
 
 void setup() {
   Serial.begin(115200);
